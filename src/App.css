@@ -1,0 +1,30 @@
+body{
+    background-color:#909497  ;
+}
+.Heading{
+   
+    text-align: center;
+    text-shadow: 5px 5px 8px orange;
+    text-transform: capitalize;
+   
+}
+.btnHead{
+  display: flex;
+  justify-content: space-around;
+}
+.btn{
+    font-size: 15px;
+    font-weight: bold;
+    margin-top: 20px;
+    background-color:#D68910  ;
+    height: 50px;
+    width: 250px;
+    border: 2px solid;
+    border-radius: 30px;
+}
+.btn:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+    transition:.4s ease-in-out ;
+background-color:#D2B4DE  ;
+}
